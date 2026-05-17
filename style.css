@@ -128,23 +128,25 @@ footer {
 }
 
 .pdf-slide h3 {
-    margin: 0px;
+    margin-top: 25px;
     text-align: auto;
 }
 
 .pdf-frame {
-    width: 100%;
-    height: 100vh;     /* bikin hampir full layar */
+    width: 90%;
+    height: 70vh;     /* bikin hampir full layar */
         border: none;  
-    display: block;
+    display: flex;
+        justify-content: center;
 
 }
 
 .pdf-frame-doa {
-    width: 100%;
+    width: 90%;
     height: 70vh;     /* bikin hampir full layar */
         border: none;  
-    display: block;
+    display: flex;
+        justify-content: center;
 }
 .image-wrapper {
     margin-top: 25px;
